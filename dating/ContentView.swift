@@ -81,7 +81,7 @@ struct Mine : View{
     @Binding var swiped : Int
     var body: some View{
         VStack{
-            Text("\(datum.name) \(datum.id) \(swiped)").background(
+            Text("\(datum.name)").background(
                 Rectangle()
                     .fill(.red)
                     .frame(width:150 , height: 300)
